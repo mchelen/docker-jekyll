@@ -3,7 +3,6 @@ MAINTAINER graham@grahamc.com
 
 RUN apt-get update \
   && apt-get install -y \
-    node \
     python-pygments \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/
